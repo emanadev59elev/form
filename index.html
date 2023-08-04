@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Envia-me um e-mail</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="box">
+    <form action="contatame.php" method="POST">
+      <fieldset>
+        <legend><h3>Contacta-me</h3></legend>
+        
+        <div class="caixa">
+          <input type="text" name="nome" placeholder="Digite seu nome">
+        </div>
+        <br>
+        <div class="caixa">
+          <input type="email" name="email" placeholder="Digite seu email">
+        </div>
+        <br>
+        <div class="caixa">
+          <textarea class="mensagem" id="" rows="3" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <br>
+
+          <input type="submit" value="Enviar Mensagem" class="enviar">
+        
+        
+      </fieldset>
+    </form>
+  </div>
+  
+  
+</body>
+  <script src="main.js"></script>
+</html>
